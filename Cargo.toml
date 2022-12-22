@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "ipmonitor"
+version = "0.1.0"
+[dependencies]
+log = "*"
+log4rs = "*"
+# clap = {version="4.0.29",features = ["derive"]}
+serde =  { version = "1.0.151", features = ["derive"] }
+serde_json = "1.0"
+encoding = "*"
